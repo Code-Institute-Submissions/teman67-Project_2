@@ -7,7 +7,6 @@ const incorrectCount = document.getElementById("incorrect-count");
 const resultContainer = document.getElementById("result-container");
 const resultMessage = document.getElementById("result-message");
 const numQuestions = questions.length;
-console.log("number of questions: ", numQuestions);
 const happyMusic = document.getElementById("happy-music");
 const sadMusic = document.getElementById("sad-music");
 
