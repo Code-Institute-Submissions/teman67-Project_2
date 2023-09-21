@@ -45,7 +45,7 @@ const questions = [
             "Physics",
             "Chemistry"
         ],
-        answer: 5 // Index of the correct option (in this case, "Chemistry")
+        answer: 4 // Index of the correct option (in this case, "Chemistry")
     },
     {
         question: "What is the primary benefit of using nanomaterials in manufacturing?",
@@ -81,7 +81,7 @@ const questions = [
             "Superconductors",
             "Nanomaterials"
         ],
-        answer: 5 // Index of the correct option (in this case, "Nanomaterials")
+        answer: 4 // Index of the correct option (in this case, "Nanomaterials")
     },
     {
         question: "Which scientist is often credited with popularizing the concept of nanotechnology?",
@@ -93,7 +93,7 @@ const questions = [
             "Marie Curie",
             "Nikola Tesla"
         ],
-        answer: 3 // Index of the correct option (in this case, "Richard Feynman")
+        answer: 2 // Index of the correct option (in this case, "Richard Feynman")
     },
     {
         question: "What is the primary purpose of a scanning tunneling microscope (STM) in nanotechnology?",
@@ -105,7 +105,7 @@ const questions = [
             "To image and manipulate individual atoms",
             "To generate electricity"
         ],
-        answer: 4 // Index of the correct option (in this case, "To image and manipulate individual atoms")
+        answer: 3 // Index of the correct option (in this case, "To image and manipulate individual atoms")
     },
     {
         question: "In nanotechnology, what does 'self-assembly' refer to?",
@@ -117,7 +117,7 @@ const questions = [
             "Developing self-cooking appliances",
             "Creating self-driving cars"
         ],
-        answer: 2 // Index of the correct option (in this case, "Materials organizing themselves into ordered structures")
+        answer: 1 // Index of the correct option (in this case, "Materials organizing themselves into ordered structures")
     },
     // Add more questions here...
 ];
