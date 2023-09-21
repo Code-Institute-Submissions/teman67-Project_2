@@ -1,0 +1,122 @@
+body {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    background-image: url("graphene03.jpg");
+    background-size: cover;
+    /* Controls how the image is sized */
+    background-repeat: no-repeat;
+    /* Prevents image from repeating */
+}
+
+h2 {
+    text-align: center;
+}
+
+#quiz-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#question-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#question-image {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #2980b9;
+}
+
+#score-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result-container {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#result-message {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+#dancing-icon {
+    width: 50px;
+    /* Adjust the size as needed */
+    height: auto;
+    z-index: 999;
+    /* Ensure the icon appears on top of other content */
+}
+
+
+#reset-button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reset-button:hover {
+    background-color: #27ae60;
+}
+
+
+#icon-container {
+    text-align: center;
+    position: relative;
+}
+
+#dancing-icon,
+#sad-icon {
+    width: 150px;
+    /* Adjust the size as needed */
+    height: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+    /* Add some spacing between the icon and the button */
+    margin-left: 39%;
+}
+
+#restart-button {
+    padding: 10px 20px;
+    /* Adjust padding */
+    font-size: 16px;
+}
