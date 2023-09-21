@@ -13,7 +13,7 @@ body {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    background-image: url("graphene03.jpg");
+    background-image: url("../images/background.jpg");
     background-size: cover;
     /* Controls how the image is sized */
     background-repeat: no-repeat;
