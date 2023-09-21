@@ -70,13 +70,17 @@ function endQuiz() {
         happyMusic.play(); // Play happy music
         sadMusic.pause(); // Pause sad music
         document.getElementById("dancing-icon").style.display = "block"; // Show the dancing icon
-        document.getElementById("sad-icon").style.display = "none";
+        document.getElementById("sad-icon").style.display = "none"; // Hide the sad icon
+        document.getElementById("happy-music-container").style.display = "block"; // Show happy music controls
+        document.getElementById("sad-music-container").style.display = "none"; // Hide sad music controls
     } else {
         resultMessage.textContent = "You did good but not enough for this time. Try Again!";
         sadMusic.play(); // Play sad music
         happyMusic.pause(); // Pause happy music
         document.getElementById("dancing-icon").style.display = "none"; // Hide the dancing icon
-        document.getElementById("sad-icon").style.display = "block";
+        document.getElementById("sad-icon").style.display = "block"; // Show the sad icon
+        document.getElementById("happy-music-container").style.display = "none"; // Show happy music controls
+        document.getElementById("sad-music-container").style.display = "block"; // Hide sad music controls
     }
 
     resultContainer.style.display = "block";
