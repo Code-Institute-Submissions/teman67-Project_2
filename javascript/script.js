@@ -71,7 +71,7 @@ function updateScore() {
 function endQuiz() {
 
 
-    if (scoreCorrect >= Math.floor(numQuestions / 2)) {
+    if (scoreCorrect >= (Math.floor(numQuestions / 2)) + 1) {
         resultMessage.textContent = "Congratulations, You Won the Game!";
         happyMusic.play(); // Play happy music
         sadMusic.pause(); // Pause sad music
