@@ -89,14 +89,26 @@ function endQuiz() {
         document.getElementById("sad-music-container").style.display = "block"; // Hide sad music controls
     }
 
+    const scores = JSON.parse(localStorage.getItem("quizScores")) || [];
+    scores.push({
+        correctAnswers: scoreCorrect,
+        incorrectAnswers: scoreIncorrect
+    });
+    localStorage.setItem("quizScores", JSON.stringify(scores));
+
     resultContainer.style.display = "block";
+    updateScoreTable();
 }
 
 
 function resetQuiz() {
     startQuiz();
-    happyMusic.pause(); // Play happy music
+
+    happyMusic.pause(); // Pause happy music
+    happyMusic.currentTime = 0;
+
     sadMusic.pause(); // Pause sad music
+    sadMusic.currentTime = 0;
 }
 
 // Start the quiz when the page loads
@@ -111,3 +123,36 @@ function shuffleArray(array) {
     }
     return shuffled;
 }
+
+function updateScoreTable() {
+    const scoreTable = document.getElementById("score-table");
+    const tbody = scoreTable.querySelector("tbody");
+
+    // Get the user's scores from localStorage
+    const scores = JSON.parse(localStorage.getItem("quizScores")) || [];
+
+    // Clear the existing table content
+    tbody.innerHTML = "";
+
+    // Populate the table with the user's scores for each attempt
+    for (let i = 0; i < scores.length; i++) {
+        const score = scores[i];
+        const row = document.createElement("tr");
+        row.innerHTML = `
+            <td>${i + 1}</td>
+            <td>${score.correctAnswers}</td>
+            <td>${score.incorrectAnswers}</td>
+        `;
+        tbody.appendChild(row);
+    }
+}
+
+// Call the updateScoreTable() function when the page loads
+window.addEventListener("load", updateScoreTable);
+
+// Event listener to clear scores when the window is closed
+window.addEventListener("beforeunload", () => {
+    localStorage.removeItem("quizScores");
+});
+
+
