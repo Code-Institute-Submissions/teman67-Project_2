@@ -171,39 +171,40 @@ h2 {
 
     p {
         font-size: 16px;
-
-        .container {
-            font-size: 90%;
-        }
-
-        #dancing-icon,
-        #sad-icon {
-            width: 100px;
-            margin-left: 37%;
-        }
-
-        #result-message {
-            font-size: 14px;
-        }
     }
 
-    @media screen and (max-width: 350px) {
-        .container {
-            font-size: 80%;
-        }
-
-        #sad-music-container,
-        #happy-music-container {
-            scale: 60%;
-        }
-
-        #dancing-icon,
-        #sad-icon {
-            width: 100px;
-            margin-left: 29%;
-        }
-
-        #result-message {
-            font-size: 12px;
-        }
+    .container {
+        font-size: 90%;
     }
+
+    #dancing-icon,
+    #sad-icon {
+        width: 100px;
+        margin-left: 37%;
+    }
+
+    #result-message {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        font-size: 80%;
+    }
+
+    #sad-music-container,
+    #happy-music-container {
+        scale: 60%;
+    }
+
+    #dancing-icon,
+    #sad-icon {
+        width: 100px;
+        margin-left: 29%;
+    }
+
+    #result-message {
+        font-size: 12px;
+    }
+}
