@@ -1,10 +1,52 @@
+.body-index {
+    background-color: #3498db;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.welcome-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    color: #3498db;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.go-to-quiz-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.go-to-quiz-button:hover {
+    background-color: #2980b9;
+}
+
+
 body {
     color: white;
     font-size: 18px;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
     padding: 0;
+    margin-top: 10px;
 }
 
 .container {
@@ -122,38 +164,46 @@ h2 {
 }
 
 @media screen and (max-width: 460px) {
-    .container {
-        font-size: 90%;
+    h1 {
+        color: #3498db;
+        font-size: 24px;
     }
 
-    #dancing-icon,
-    #sad-icon {
-        width: 100px;
-        margin-left: 37%;
+    p {
+        font-size: 16px;
+
+        .container {
+            font-size: 90%;
+        }
+
+        #dancing-icon,
+        #sad-icon {
+            width: 100px;
+            margin-left: 37%;
+        }
+
+        #result-message {
+            font-size: 14px;
+        }
     }
 
-    #result-message {
-        font-size: 14px;
-    }
-}
+    @media screen and (max-width: 350px) {
+        .container {
+            font-size: 80%;
+        }
 
-@media screen and (max-width: 350px) {
-    .container {
-        font-size: 80%;
-    }
+        #sad-music-container,
+        #happy-music-container {
+            scale: 60%;
+        }
 
-    #sad-music-container,
-    #happy-music-container {
-        scale: 60%;
-    }
+        #dancing-icon,
+        #sad-icon {
+            width: 100px;
+            margin-left: 29%;
+        }
 
-    #dancing-icon,
-    #sad-icon {
-        width: 100px;
-        margin-left: 29%;
+        #result-message {
+            font-size: 12px;
+        }
     }
-
-    #result-message {
-        font-size: 12px;
-    }
-}

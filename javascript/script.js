@@ -15,7 +15,13 @@ let scoreCorrect = 0;
 let scoreIncorrect = 0;
 let shuffledQuestions = [];
 
+function goToQuizPage() {
+    // Redirect to the quiz page (quiz.html)
+    window.location.href = "quiz.html";
+}
+
 function startQuiz() {
+
     shuffledQuestions = shuffleArray(questions);
     currentQuestionIndex = 0;
     scoreCorrect = 0;
@@ -66,7 +72,7 @@ function endQuiz() {
 
 
     if (scoreCorrect >= Math.floor(numQuestions / 2)) {
-        resultMessage.textContent = "You Won the Game!";
+        resultMessage.textContent = "Congratulations, You Won the Game!";
         happyMusic.play(); // Play happy music
         sadMusic.pause(); // Pause sad music
         document.getElementById("dancing-icon").style.display = "block"; // Show the dancing icon

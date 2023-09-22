@@ -6,77 +6,20 @@
     <meta name="description" content="Nanotechnology Quiz for Kids" />
     <meta
       name="keywords"
-      content="Nanotechnology, Kids, Learn, Germany, Quiz,
-    Questions"
+      content="Nanotechnology, Kids, Learn, Germany, Quiz, Questions"
     />
-    <title>Nanotechnology Quiz</title>
+    <title>Welcome to Nanotechnology Quiz</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body>
-    <div class="container">
-      <h2>Nanotechnology Quiz</h2>
-      <div id="quiz-container">
-        <div id="question-container">
-          <p id="question-image"></p>
-          <p id="question-text"></p>
-        </div>
-        <div id="options-container">
-          <button class="option" onclick="checkAnswer(this)"></button>
-          <button class="option" onclick="checkAnswer(this)"></button>
-          <button class="option" onclick="checkAnswer(this)"></button>
-          <button class="option" onclick="checkAnswer(this)"></button>
-          <button class="option" onclick="checkAnswer(this)"></button>
-        </div>
-      </div>
-      <div id="score-container">
-        <p>Correct: <span id="correct-count">0</span></p>
-        <p>Incorrect: <span id="incorrect-count">0</span></p>
-      </div>
-      <div id="result-container">
-        <p id="result-message"></p>
-        <div id="happy-music-container">
-          <audio
-            controls
-            muted
-            id="happy-music"
-            src="assets/musics/happy_music.mp3"
-            preload="auto"
-            loop
-          ></audio>
-        </div>
-        <div id="sad-music-container">
-          <audio
-            controls
-            muted
-            id="sad-music"
-            src="assets/musics/sad_music.mp3"
-            preload="auto"
-            loop
-          ></audio>
-        </div>
-        <div id="icon-container">
-          <video
-            id="dancing-icon"
-            src="assets/videos/dancing_icon.mp4"
-            alt="Dancing Icon"
-            autoplay
-            loop
-            muted
-            playsinline
-          ></video>
-          <video
-            id="sad-icon"
-            src="assets/videos/sad_icon.mp4"
-            alt="Sad Icon"
-            autoplay
-            loop
-            muted
-            playsinline
-          ></video>
-          <button id="reset-button" onclick="resetQuiz()">Restart</button>
-        </div>
-      </div>
+  <body class="body-index">
+    <div class="welcome-container">
+      <h1>Welcome to the Nanotechnology Quiz</h1>
+      <p>Test your knowledge in the exciting field of nanotechnology!</p>
+      <p>Are you ready to begin?</p>
+      <button class="go-to-quiz-button" onclick="goToQuizPage()">
+        Go to Quiz Page
+      </button>
     </div>
 
     <script src="javascript/questions.js"></script>
