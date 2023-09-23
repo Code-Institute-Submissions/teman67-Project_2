@@ -21,13 +21,12 @@ function goToQuizPage() {
 }
 
 function goToFirstPage() {
-    // Redirect to the first page (quiz.html)
+    // Redirect to the first page (index.html)
     window.location.href = "index.html";
 
 }
 
 function startQuiz() {
-
     shuffledQuestions = shuffleArray(questions);
     currentQuestionIndex = 0;
     scoreCorrect = 0;
@@ -75,8 +74,6 @@ function updateScore() {
 }
 
 function endQuiz() {
-
-
     if (scoreCorrect >= (Math.floor(numQuestions / 2)) + 1) {
         resultMessage.textContent = "Congratulations, You Won the Game!";
         happyMusic.play(); // Play happy music
