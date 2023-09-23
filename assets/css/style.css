@@ -38,6 +38,7 @@ p {
 
 .go-to-first-button {
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .go-to-quiz-button:hover {
