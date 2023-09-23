@@ -25,7 +25,8 @@ p {
     margin: 20px 0;
 }
 
-.go-to-quiz-button {
+.go-to-quiz-button,
+.go-to-first-button {
     padding: 10px 20px;
     background-color: #3498db;
     color: #fff;

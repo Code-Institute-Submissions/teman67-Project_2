@@ -20,6 +20,12 @@ function goToQuizPage() {
     window.location.href = "quiz.html";
 }
 
+function goToFirstPage() {
+    // Redirect to the first page (quiz.html)
+    window.location.href = "index.html";
+
+}
+
 function startQuiz() {
 
     shuffledQuestions = shuffleArray(questions);
