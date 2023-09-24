@@ -1,10 +1,8 @@
-# Tiny World for Your Tinies
+# Nanotechnology Quiz
 
-The aim of our webpage is to make the fascinating world of nanotechnology accessible and engaging for kids. We believe that learning about nanotechnology should be fun and educational, which is why our webpage is designed to provide young learners with a playful and interactive introduction to this groundbreaking field.
+This is a quiz game that you can test your knowledge in the field of Nanotechnology. In the first page you can find the instruction about how many questions are in the quiz and how many questions you need to answer to win the quiz.
 
-Through colorful visuals, easy-to-understand explanations, and hands-on activities, we aim to demystify the concept of nanotechnology. Our goal is to spark curiosity and inspire the next generation of scientists and innovators by showing them how tiny particles, at the nanoscale, can have a big impact on our everyday lives.
-
-![Responsice Mockup](https://github.com/teman67/Project-1/blob/main/readme_folder/Resposivity.png)
+![Responsice Mockup](readme_folder/Responsive.png)
 
 ### Existing Features
 
