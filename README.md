@@ -4,6 +4,8 @@ This is a quiz game that you can test your knowledge in the field of Nanotechnol
 
 ![Responsice Mockup](readme_folder/Responsive.png)
 
+The live link can be found here - <https://teman67.github.io/Project_2/index.html>
+
 ### Existing Features
 
 - __Navigation Bar__
