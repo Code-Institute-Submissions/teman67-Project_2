@@ -160,7 +160,7 @@ h2 {
     display: inline-block;
     margin-bottom: 10px;
     /* Add some spacing between the icon and the button */
-    margin-left: 39%;
+    margin-left: 40%;
 }
 
 #restart-button {
@@ -239,10 +239,10 @@ h2 {
     #dancing-icon,
     #sad-icon {
         width: 100px;
-        margin-left: 29%;
+        margin-left: 31%;
     }
 
     #result-message {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
