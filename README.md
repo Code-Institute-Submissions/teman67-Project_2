@@ -49,9 +49,10 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 - The Google Chrome lighthouse tool was used to check the website:
   - ![Scores for Quiz page](readme_folder/Scores.png)
 
-### Unfixed Bugs
+### Fixed Bugs
 
-When I use media query for cellphone size, in the home page, the first green bullet point goes to the right side of the screen in google chrome while in firefox it is in a correct side. I have checked different parameters in my css styling but I could not solve it. I also searched on google and stack overflow and still the isuue was not solved.
+- When the user refreshed the page the scores in the table did not clean. Using localStorage.removeItem("quizScores") solved the isuue.
+- The songs did not start from 0 second when the user restarted the quiz. Using happyMusic.currentTime = 0; sadMusic.currentTime = 0 in resetQuiz() function solved the isuue.
 
 ## Deployment
 
@@ -67,5 +68,5 @@ The live link can be found here - <https://teman67.github.io/Project-1/index.htm
 - The image of the quiz page was tooken from google images.
 - The chicken icons were downloaded from google with .gif extention and then converted to .mp4 to reduce the size.
 - The songs were downloaded from [Pixabay](https://pixabay.com).
-- The algorithm to shuffle the questions is suggested by ChatGPT [ChatGPT](https://chat.openai.com/).
+- The algorithm to shuffle the questions is suggested by ChatGPT v3.5 [ChatGPT](https://chat.openai.com/).
 - The Readme.md template was obtained from Code Institute [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
