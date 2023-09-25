@@ -47,7 +47,7 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
   - No errors were found when passing through the official Jshint Validator.
 
 - The Google Chrome lighthouse tool was used to check the website:
-  - ![Scores for Quiz page](readme_folder/scores.png)
+  - ![Scores for Quiz page](readme_folder/Scores.png)
 
 ### Unfixed Bugs
 
