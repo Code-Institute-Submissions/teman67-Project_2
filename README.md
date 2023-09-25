@@ -40,14 +40,14 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official
+  - No errors were returned when passing through the official W3C Markup Validator.
 - CSS
-  - No errors were found when passing through the official
+  - No errors were found when passing through the official W3C CSS Validator.
+- Javascript
+  - No errors were found when passing through the official Jshint Validator.
 
-  - The Google Chrome lighthouse tool was used to check the website and the scores for each pages are shown bellow:
-  - ![Scores for Home page](https://github.com/teman67/Project-1/blob/main/readme_folder/Home-scores.png)
-  - ![Scores for Activities page](https://github.com/teman67/Project-1/blob/main/readme_folder/Activities-scores.png)
-  - ![Scores for Contact page](https://github.com/teman67/Project-1/blob/main/readme_folder/Contact-scores.png)
+- The Google Chrome lighthouse tool was used to check the website:
+  - ![Scores for Quiz page](readme_folder/scores.png)
 
 ### Unfixed Bugs
 
@@ -64,8 +64,7 @@ The live link can be found here - <https://teman67.github.io/Project-1/index.htm
 
 ### Content
 
-- The images of the website were tooken from google images.
-- The video on the home page was downloaded from Youtube (<https://www.youtube.com/watch?v=xW8Oocswn9s>) and then edited by KAPWING online website.
-- The icons in the footer and Activities page were taken from [Font Awesome](https://fontawesome.com/).
-- The fonts are imported from Google Fonts.
-- The Readme.md template was obtained from Code Institute.
+- The image of the quiz page was tooken from google images.
+- The chicken icons were downloaded from google with .gif extention and then converted to .mp4 to reduce the size.
+- The songs were downloaded from [Pixabay](https://pixabay.com).
+- The Readme.md template was obtained from Code Institute [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
