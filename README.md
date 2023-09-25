@@ -12,14 +12,22 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 
   - On the welcome page, you'll find an instruction about the game. It is clear for users that they need to answer at least 6 question correctly to win the game.
   - Users can see what will happen after ending the game, including playing a song, showing a chicken icon and a table that record their attempts.
+  - Users can go to the quiz page by clicking the "Go to Quiz Page" button.
 
 ![Welcome Page](readme_folder/Welcome_page.png)
 
-- __The landing page text and images__
-
-  - Here, three images are displayed, each accompanied by relevant text. These images provide users with a clear understanding of the course's content and how children will engage with the world of Nano.
+- __The Quiz Page__
   
-![landing page text and images](https://github.com/teman67/Project-1/blob/main/readme_folder/landing_page2.png)
+  - On top of the page there is a button that user can use to go back to the welcome page.
+  - Here, the questions are displayed and a user can select the correct answer from 5 available options.
+  - If the user select the correct answer then the Correct score increases otherwise the Incorrect score increases.
+  - When the user answers to 10 questions, if they answer to at least 6 questions correctly, then a happy song plays and a happy chicken dances. While, if the user cannot win the quiz a sad song plays and a sad chicken shows at the bottom of the page.
+  - The song is muted and the user can unmute the song.
+  - A table is also displayed after each participation and the user can track his/her scores. 
+  
+![Quiz Page](readme_folder/Quiz_page.png)
+![Win Quiz](readme_folder/Win_quiz.png)
+![Lose Quiz](readme_folder/Lose_quiz.png)
 
 - __The Footer__
 
