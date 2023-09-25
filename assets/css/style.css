@@ -233,7 +233,7 @@ h2 {
 
     #sad-music-container,
     #happy-music-container {
-        scale: 60%;
+        transform: scale(0.7);
     }
 
     #dancing-icon,

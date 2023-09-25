@@ -30,51 +30,19 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 ![Win Quiz](readme_folder/Win_quiz.png)
 ![Lose Quiz](readme_folder/Lose_quiz.png)
 
-- __The Footer__
-
-  - In the footer section, you'll find links to Tiny World for Your Tinies's pertinent social media platforms. These links are designed to open in new tabs, ensuring a seamless user experience. The footer holds significant value for users by promoting and facilitating ongoing connectivity through social media channels.
-
-![Footer](https://github.com/teman67/Project-1/blob/main/readme_folder/footer.png)
-
-- __Activities Page__
-
-  - On this page, users will discover information about the educator, including details about his qualifications and expertise.
-  - Following that, users will encounter four succinct bullet points that emphasize the core aims and concepts of the course.
-
-![Activities](https://github.com/teman67/Project-1/blob/main/readme_folder/Activities.png)
-
-- The Activities page showcases six engaging images to inspire users to enroll in our programs.
-![Activities Images](https://github.com/teman67/Project-1/blob/main/readme_folder/Activities_images.png)
-
-- __Contact Page__
-
-  - On this page, users have the opportunity to enroll in the course by submitting their full name, email address and their child's age.
-  - Additionally, they can share valuable feedback about the course content, allowing us to improve the course.
-
-![Contact](https://github.com/teman67/Project-1/blob/main/readme_folder/Contact.png)
-
-- When the user submit the form, they conduct to the forms-from-users page as bellow:
-![Subscription](https://github.com/teman67/Project-1/blob/main/readme_folder/Subscription.png)
-
-### Features Left to Implement
-
-- Introducing another page where users can access real videos and images of the course would be highly advantageous.
-
 ## Testing
 
 - I have checked the website on different screen sizes and it works well.
-- To increase the performance of the website, I changed the images from .jpg or .png to .webp when the size of the images were too large.
-- On the Home page, the position of the images is dependent on which cellphone size is used. I could not fix this issue.
 - The webpage works well when I used Google chrome, Firefox, Opera, and Microsoft Edge web browsers.
+- The outcome of the quiz is always correct and I tested different scenarios to confirm it.
+- I confirm that the quiz questions are easy to read and the contrast is good enough.
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://github.com/teman67/Project-1/blob/main/readme_folder/Showing%20results%20for%20contents%20of%20text-input%20area_Tiny%20World%20for%20Your%20Tinies.html)
-![W3C_validator](https://github.com/teman67/Project-1/blob/main/readme_folder/W3C_validator.png)
+  - No errors were returned when passing through the official
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://github.com/teman67/Project-1/blob/main/readme_folder/W3C%20CSS%20Validator%20results%20for%20TextArea_Tiny%20World%20for%20Your%20Tinies.html)
-![Jigsaw_validator](https://github.com/teman67/Project-1/blob/main/readme_folder/Jigsaw_validator.png)
+  - No errors were found when passing through the official
 
   - The Google Chrome lighthouse tool was used to check the website and the scores for each pages are shown bellow:
   - ![Scores for Home page](https://github.com/teman67/Project-1/blob/main/readme_folder/Home-scores.png)
