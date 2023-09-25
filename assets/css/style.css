@@ -80,6 +80,7 @@ h2 {
     border: 1px solid #ccc;
     padding: 20px;
     margin-top: 20px;
+    background-color: rgba(0, 0, 61, 0.75);
 }
 
 #question-container {
