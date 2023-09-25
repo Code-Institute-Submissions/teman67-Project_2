@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     color: black;
+    letter-spacing: 1px;
 }
 
 .welcome-container {
@@ -53,6 +54,7 @@ body {
     background-color: #f0f0f0;
     padding: 0;
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 .container {
@@ -70,6 +72,7 @@ body {
 
 h2 {
     text-align: center;
+    letter-spacing: 2px;
 }
 
 #quiz-container {
