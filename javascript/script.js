@@ -26,6 +26,7 @@ function goToFirstPage() {
 
 }
 
+// start the Quiz
 function startQuiz() {
     shuffledQuestions = shuffleArray(questions);
     currentQuestionIndex = 0;
@@ -36,6 +37,7 @@ function startQuiz() {
     loadQuestion(currentQuestionIndex);
 }
 
+// Load the questions using shuffle algorithm
 function loadQuestion(index) {
     if (index < shuffledQuestions.length) {
         const question = shuffledQuestions[index];
@@ -117,7 +119,7 @@ function resetQuiz() {
 // Start the quiz when the page loads
 window.addEventListener("load", startQuiz);
 
-// Function to shuffle an array using Fisher-Yates algorithm
+// Function to shuffle an array using Fisher-Yates algorithm proposed by ChatGPT
 function shuffleArray(array) {
     const shuffled = array.slice();
     for (let i = shuffled.length - 1; i > 0; i--) {
