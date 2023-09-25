@@ -18,12 +18,13 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 
 - __The Quiz Page__
   
-  - On top of the page there is a button that user can use to go back to the welcome page.
+  - On top of the page there is a button that user can go back to the welcome page.
   - Here, the questions are displayed and a user can select the correct answer from 5 available options.
   - If the user select the correct answer then the Correct score increases otherwise the Incorrect score increases.
   - When the user answers to 10 questions, if they answer to at least 6 questions correctly, then a happy song plays and a happy chicken dances. While, if the user cannot win the quiz a sad song plays and a sad chicken shows at the bottom of the page.
   - The song is muted and the user can unmute the song.
-  - A table is also displayed after each participation and the user can track his/her scores. 
+  - A table is also displayed after each participation and the user can track his/her scores.
+  - Each time that the user Restart the quiz, the questions are suffled.
   
 ![Quiz Page](readme_folder/Quiz_page.png)
 ![Win Quiz](readme_folder/Win_quiz.png)
