@@ -40,11 +40,11 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official W3C Markup Validator.
+  - No errors were returned when passing through the official W3C Markup Validator [W3C_validator](https://validator.w3.org/).
 - CSS
-  - No errors were found when passing through the official W3C CSS Validator.
+  - No errors were found when passing through the official W3C CSS Validator [Jigsaw validator](https://jigsaw.w3.org/) .
 - Javascript
-  - No errors were found when passing through the official Jshint Validator.
+  - No errors were found when passing through the official Jshint Validator [JSHint](https://jshint.com/).
 
 - The Google Chrome lighthouse tool was used to check the website:
   - ![Scores for Quiz page](readme_folder/Scores.png)
