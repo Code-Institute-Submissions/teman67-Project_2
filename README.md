@@ -1,6 +1,6 @@
 # Nanotechnology Quiz
 
-This is a quiz game that you can test your knowledge in the field of Nanotechnology. In the first page you can find the instruction about how many questions are in the quiz and how many questions you need to answer to win the quiz.
+This is a quiz game that you can test your knowledge in the field of Nanotechnology. In the first page you can find the instruction about how many questions are in the quiz and how many questions you need to answer correctly to win the quiz. By tracking your scores over time, you can challenge yourself to improve your performance and continue learning.
 
 ![Responsice Mockup](readme_folder/Responsive.png)
 
@@ -8,18 +8,12 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 
 ### Existing Features
 
-- __Navigation Bar__
-  
-  - Present on every page, our fully responsive navigation bar is consistent across the board, featuring links to the Logo, Home page, Activities, and Contact pages. This uniformity ensures effortless navigation throughout the entire website. This navigation feature simplifies the user experience, enabling seamless movement between pages on any device.
+- __The welcome page__
 
-![Nav Bar](https://github.com/teman67/Project-1/blob/main/readme_folder/Navigation_bar.png)
+  - On the welcome page, you'll find an instruction about the game. It is clear for users that they need to answer at least 6 question correctly to win the game.
+  - Users can see what will happen after ending the game, including playing a song, showing a chicken icon and a table that record their attempts.
 
-- __The landing page video__
-
-  - On the landing page, you'll find a video introducing the concept of Nano size to kids using easy-to-understand language.
-  - The video is accompanied by a brief paragraph explaining the webpage's purpose.
-
-![Landing Page video](https://github.com/teman67/Project-1/blob/main/readme_folder/landing_page.png)
+![Welcome Page](readme_folder/Welcome_page.png)
 
 - __The landing page text and images__
 
