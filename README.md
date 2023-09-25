@@ -68,5 +68,5 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 - The image of the quiz page was tooken from google images.
 - The chicken icons were downloaded from google with .gif extention and then converted to .mp4 to reduce the size.
 - The songs were downloaded from [Pixabay](https://pixabay.com).
-- The algorithm to shuffle the questions is suggested by ChatGPT v3.5 [ChatGPT](https://chat.openai.com/).
+- The algorithm to shuffle the questions was suggested by ChatGPT v3.5 [ChatGPT](https://chat.openai.com/).
 - The Readme.md template was obtained from Code Institute [Code Institute](https://github.com/Code-Institute-Org/ci-full-template).
