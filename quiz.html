@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata for character set and viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Description and keywords for SEO -->
     <meta
       name="description"
       content="Nanotechnology Quiz to Test Your Knowledge"
@@ -12,22 +14,29 @@
       content="Nanotechnology, Learn, Germany, Quiz,
     Questions"
     />
+    <!-- Page title -->
     <title>Nanotechnology Quiz</title>
+    <!-- Link to the CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <body>
+    <!-- Button to go to the first page -->
     <button class="go-to-first-button" onclick="goToFirstPage()">
       Go to First Page
     </button>
     <div class="container">
+      <!-- Page heading -->
       <h2>Nanotechnology Quiz</h2>
       <div id="quiz-container">
         <div id="question-container">
+          <!-- Placeholder for question image -->
           <p id="question-image"></p>
+          <!-- Placeholder for question text -->
           <p id="question-text"></p>
         </div>
         <div id="options-container">
+          <!-- Buttons for answer options -->
           <button class="option" onclick="checkAnswer(this)"></button>
           <button class="option" onclick="checkAnswer(this)"></button>
           <button class="option" onclick="checkAnswer(this)"></button>
@@ -36,12 +45,15 @@
         </div>
       </div>
       <div id="score-container">
+        <!-- Display correct and incorrect counts -->
         <p>Correct: <span id="correct-count">0</span></p>
         <p>Incorrect: <span id="incorrect-count">0</span></p>
       </div>
       <div id="result-container">
+        <!-- Display quiz result message -->
         <p id="result-message"></p>
         <div id="happy-music-container">
+          <!-- Audio player for happy music -->
           <audio
             controls
             muted
@@ -52,6 +64,7 @@
           ></audio>
         </div>
         <div id="sad-music-container">
+          <!-- Audio player for sad music -->
           <audio
             controls
             muted
@@ -62,6 +75,7 @@
           ></audio>
         </div>
         <div id="icon-container">
+          <!-- Placeholder for dancing and sad icons -->
           <video
             id="dancing-icon"
             src="assets/videos/dancing_icon.mp4"
@@ -78,9 +92,11 @@
             muted
             playsinline
           ></video>
+          <!-- Button to reset the quiz -->
           <button id="reset-button" onclick="resetQuiz()">Restart</button>
           <table id="score-table">
             <thead>
+              <!-- Table header for score -->
               <tr>
                 <th>Attempt</th>
                 <th>Correct Answers</th>
@@ -88,12 +104,13 @@
               </tr>
             </thead>
             <tbody>
-              <!-- Score data will be added here dynamically -->
+              <!-- Table body for score data (populated dynamically) -->
             </tbody>
           </table>
         </div>
       </div>
     </div>
+    <!-- JavaScript files for quiz functionality -->
     <script src="javascript/questions.js"></script>
     <script src="javascript/script.js"></script>
   </body>
