@@ -93,6 +93,8 @@ function endQuiz() {
         document.getElementById("sad-icon").style.display = "none"; // Hide sad icon
         document.getElementById("happy-music-container").style.display = "block"; // Show happy music controls
         document.getElementById("sad-music-container").style.display = "none"; // Hide sad music controls
+        // Change the background color to green for a win
+        document.getElementById("quiz-container").style.backgroundColor = "rgba(4, 161, 17, 0.7)";
     } else {
         resultMessage.textContent = "You did good but not enough for this time. Try Again!";
         sadMusic.play(); // Play sad music
@@ -101,6 +103,8 @@ function endQuiz() {
         document.getElementById("sad-icon").style.display = "block"; // Show sad icon
         document.getElementById("happy-music-container").style.display = "none"; // Show happy music controls
         document.getElementById("sad-music-container").style.display = "block"; // Hide sad music controls
+        // Change the background color to red for a loss
+        document.getElementById("quiz-container").style.backgroundColor = "rgba(228, 33, 33, 0.7)";
     }
 
     // Get the user's score history from local storage or initialize an empty array
@@ -124,6 +128,8 @@ function resetQuiz() {
     happyMusic.currentTime = 0; // Reset the audio playback position
     sadMusic.pause(); // Pause and reset the sad music
     sadMusic.currentTime = 0; // Reset the audio playback position
+    // Reset the background color to its default value
+    document.getElementById("quiz-container").style.backgroundColor = "rgba(0, 0, 61, 0.75)";
 }
 
 // Event listener to start the quiz when the page loads
