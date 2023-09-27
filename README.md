@@ -21,7 +21,7 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
   - At the top of the Quiz page there is a button that user can go back to the welcome page.
   - Here, the questions are displayed and a user can select the correct answer from 5 available options.
   - If the user select the correct answer then the Correct score increases otherwise the Incorrect score increases.
-  - When the user answers to 10 questions, if they answer to at least 6 questions correctly, then a happy song plays and a happy chicken dances. While, if the user cannot win the quiz a sad song plays and a sad chicken shows at the bottom of the page.
+  - When the user answers to 10 questions, if they answer to at least 6 questions correctly, then a happy song plays,a happy chicken dances and the background color changes to green. While, if the user cannot win the quiz a sad song plays, a sad chicken shows at the bottom of the page and the background color changes to red.
   - The song is muted and the user can unmute the song.
   - A table is also displayed after each participation and the user can track his/her scores.
   - Each time that the user Restart the quiz, the questions are suffled.
