@@ -2,7 +2,7 @@
 
 This is a quiz game that you can test your knowledge in the field of Nanotechnology. In the first page you can find the instruction about how many questions are in the quiz and how many questions you need to answer correctly to win the quiz. By tracking your scores over time, you can challenge yourself to improve your performance and continue learning.
 
-![Responsice Mockup](readme_folder/Responsive.png)
+![Responsice Mockup](readme/responsive.png)
 
 The live link can be found here - <https://teman67.github.io/Project_2/index.html>
 
@@ -14,7 +14,7 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
   - Users can see what will happen after ending the game, including playing a song, showing a chicken icon and a table that record their attempts.
   - Users can go to the quiz page by clicking the "Go to Quiz Page" button.
 
-![Welcome Page](readme_folder/Welcome_page.png)
+![Welcome Page](readme/welcome_page.png)
 
 - __The Quiz Page__
   
@@ -26,9 +26,9 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
   - A table is also displayed after each participation and the user can track his/her scores.
   - Each time that the user Restart the quiz, the questions are suffled.
   
-![Quiz Page](readme_folder/Quiz_page.png)
-![Win Quiz](readme_folder/Win_quiz.png)
-![Lose Quiz](readme_folder/Lose_quiz.png)
+![Quiz Page](readme/quiz_page.png)
+![Win Quiz](readme/win_quiz.png)
+![Lose Quiz](readme/lose_quiz.png)
 
 ## Testing
 
@@ -47,7 +47,7 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
   - No errors were found when passing through the official Jshint Validator [JSHint](https://jshint.com/).
 
 - The Google Chrome lighthouse tool was used to check the website:
-  - ![Scores for Quiz page](readme_folder/Scores.png)
+  - ![Scores for Quiz page](readme/scores.png)
 
 ### Fixed Bugs
 
