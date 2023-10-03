@@ -58,19 +58,19 @@ The live link can be found here - <https://teman67.github.io/Project_2/index.htm
 
 - GitHub pages
   - The site was deployed to GitHub pages. The steps to deploy are as follows:
-    1- In the GitHub repository, navigate to the Settings tab
-    2- From the source section drop-down menu, select the Master Branch
-    3- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - <https://teman67.github.io/Project_2/index.html>
 
 - Local Clone
-  1- Log in to GitHub and locate GitHub Repository Project_2 (https://github.com/teman67/Project_2)
-  2- Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-  3- Open Git Bash
-  4- Change the current working directory to the location where you want the cloned directory to be made.
-  5- Type git clone and then paste The URL copied in the step 2.
-  6- Press Enter and your local clone will be created.
+  - Log in to GitHub and locate GitHub Repository Project_2 [Project 2](https://github.com/teman67/Project_2)
+  - Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+  - Open Git Bash
+  - Change the current working directory to the location where you want the cloned directory to be made.
+  - Type git clone and then paste The URL copied in the step 2.
+  - Press Enter and your local clone will be created.
 
 ### Content
 
