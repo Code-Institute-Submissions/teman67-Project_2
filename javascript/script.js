@@ -8,8 +8,8 @@ const incorrectCount = document.getElementById("incorrect-count");
 const resultContainer = document.getElementById("result-container");
 const resultMessage = document.getElementById("result-message");
 const numQuestions = questions.length; // Get the total number of questions
-const happyMusic = document.getElementById("happy-music"); // Get the happy music element
-const sadMusic = document.getElementById("sad-music"); // Get the sad music element
+const happyMusic = document.getElementById("happy-music"); 
+const sadMusic = document.getElementById("sad-music"); 
 
 // Initialize variables to keep track of quiz state
 let currentQuestionIndex = 0;
@@ -31,12 +31,12 @@ function goToFirstPage() {
 function startQuiz() {
     // Shuffle the array of questions
     shuffledQuestions = shuffleArray(questions);
-    currentQuestionIndex = 0; // Initialize the current question index
-    scoreCorrect = 0; // Initialize the correct answer count
-    scoreIncorrect = 0; // Initialize the incorrect answer count
-    updateScore(); // Update the displayed scores
-    resultContainer.style.display = "none"; // Hide the result container
-    loadQuestion(currentQuestionIndex); // Load the first question
+    currentQuestionIndex = 0; 
+    scoreCorrect = 0; 
+    scoreIncorrect = 0; 
+    updateScore(); 
+    resultContainer.style.display = "none"; 
+    loadQuestion(currentQuestionIndex); 
 }
 
 // Function to load a question
@@ -44,8 +44,8 @@ function loadQuestion(index) {
     if (index < shuffledQuestions.length) {
         // Get the current question
         const question = shuffledQuestions[index];
-        questionImage.src = questions[currentQuestionIndex].image; // Display question image
-        questionText.textContent = question.question; // Display question text
+        questionImage.src = questions[currentQuestionIndex].image; 
+        questionText.textContent = question.question; 
 
         // Clear and populate the options for the question
         optionsContainer.innerHTML = "";
@@ -66,20 +66,20 @@ function loadQuestion(index) {
 function checkAnswer(selectedIndex) {
     const currentQuestion = shuffledQuestions[currentQuestionIndex];
     if (selectedIndex === currentQuestion.answer) {
-        scoreCorrect++; // Increment the correct answer count
+        scoreCorrect++; 
     } else {
-        scoreIncorrect++; // Increment the incorrect answer count
+        scoreIncorrect++; 
     }
 
     currentQuestionIndex++; // Move to the next question
-    updateScore(); // Update the displayed scores
-    loadQuestion(currentQuestionIndex); // Load the next question
+    updateScore(); 
+    loadQuestion(currentQuestionIndex); 
 }
 
 // Function to update the displayed scores
 function updateScore() {
-    correctCount.textContent = scoreCorrect; // Display correct answer count
-    incorrectCount.textContent = scoreIncorrect; // Display incorrect answer count
+    correctCount.textContent = scoreCorrect; 
+    incorrectCount.textContent = scoreIncorrect; 
 }
 
 // Function to end the quiz
@@ -87,29 +87,28 @@ function endQuiz() {
     // Check if the user won (scored more than half the questions)
     if (scoreCorrect >= Math.floor(numQuestions / 2) + 1) {
         resultMessage.textContent = "Congratulations, You Won the Game!";
-        happyMusic.play(); // Play happy music
-        sadMusic.pause(); // Pause sad music
-        document.getElementById("dancing-icon").style.display = "block"; // Show dancing icon
-        document.getElementById("sad-icon").style.display = "none"; // Hide sad icon
-        document.getElementById("happy-music-container").style.display = "block"; // Show happy music controls
-        document.getElementById("sad-music-container").style.display = "none"; // Hide sad music controls
+        happyMusic.play(); 
+        sadMusic.pause(); 
+        document.getElementById("dancing-icon").style.display = "block"; 
+        document.getElementById("sad-icon").style.display = "none"; 
+        document.getElementById("happy-music-container").style.display = "block"; 
+        document.getElementById("sad-music-container").style.display = "none"; 
         // Change the background color to green for a win
         document.getElementById("quiz-container").style.backgroundColor = "rgba(4, 161, 17, 0.7)";
     } else {
         resultMessage.textContent = "You did good but not enough for this time. Try Again!";
-        sadMusic.play(); // Play sad music
-        happyMusic.pause(); // Pause happy music
-        document.getElementById("dancing-icon").style.display = "none"; // Hide dancing icon
-        document.getElementById("sad-icon").style.display = "block"; // Show sad icon
-        document.getElementById("happy-music-container").style.display = "none"; // Show happy music controls
-        document.getElementById("sad-music-container").style.display = "block"; // Hide sad music controls
+        sadMusic.play(); 
+        happyMusic.pause(); 
+        document.getElementById("dancing-icon").style.display = "none"; 
+        document.getElementById("sad-icon").style.display = "block"; 
+        document.getElementById("happy-music-container").style.display = "none"; 
+        document.getElementById("sad-music-container").style.display = "block"; 
         // Change the background color to red for a loss
         document.getElementById("quiz-container").style.backgroundColor = "rgba(228, 33, 33, 0.7)";
     }
 
     // Get the user's score history from local storage or initialize an empty array
     const scores = JSON.parse(localStorage.getItem("quizScores")) || [];
-    // Add the current attempt's scores to the history
     scores.push({
         correctAnswers: scoreCorrect,
         incorrectAnswers: scoreIncorrect
@@ -117,17 +116,17 @@ function endQuiz() {
     // Store the updated score history in local storage
     localStorage.setItem("quizScores", JSON.stringify(scores));
 
-    resultContainer.style.display = "block"; // Show the result container
-    updateScoreTable(); // Update the score history table
+    resultContainer.style.display = "block"; 
+    updateScoreTable(); 
 }
 
 // Function to reset the quiz
 function resetQuiz() {
-    startQuiz(); // Start the quiz again
-    happyMusic.pause(); // Pause and reset the happy music
-    happyMusic.currentTime = 0; // Reset the audio playback position
-    sadMusic.pause(); // Pause and reset the sad music
-    sadMusic.currentTime = 0; // Reset the audio playback position
+    startQuiz(); 
+    happyMusic.pause(); 
+    happyMusic.currentTime = 0; 
+    sadMusic.pause(); 
+    sadMusic.currentTime = 0; 
     // Reset the background color to its default value
     document.getElementById("quiz-container").style.backgroundColor = "rgba(0, 0, 61, 0.75)";
 }
@@ -174,5 +173,5 @@ window.addEventListener("load", updateScoreTable);
 
 // Event listener to clear scores when the window is closed
 window.addEventListener("beforeunload", () => {
-    localStorage.removeItem("quizScores"); // Remove score history from local storage
+    localStorage.removeItem("quizScores"); 
 });
